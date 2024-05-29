@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yHome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ccc;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .service, .listing {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .service h3, .listing h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>yHome</h1>
+</header>
+
+<nav>
+    <a href="#">Post Property</a>
+    <a href="#">Buy</a>
+    <a href="#">Sell</a>
+    <a href="#">Dashboard</a>
+    <a href="#">Rent</a>
+    <a href="#">Help</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact Us</a>
+    <a href="#">FAQ</a>
+    <a href="#">Saved</a>
+    <a href="#">Account</a>
+    <a href="#">Login</a>
+    <a href="#">Register</a>
+</nav>
+
+<main>
+    <section>
+        <h2>Find Your Perfect Home</h2>
+        <form>
+            <label for="location">Enter Location: </label>
+            <input type="text" id="location" name="location" required><br><br>
+
+            <label for="city">Enter City Name: </label>
+            <input type="text" id="city" name="city" required><br><br>
+
+            <label for="property-type">Property Type: </label>
+            <select id="property-type" name="property-type" required>
+                <option value="flat">Flat</option>
+            </select><br><br>
+
+            <label for="bhk">How Many BHK: </label>
+            <select id="bhk" name="bhk" required>
+                <option value="1bhk">1 BHK</option>
+            </select><br><br>
+
+            <label for="budget">Maximum Budget: </label>
+            <input type="number" id="budget" name="budget" value="500000" required><br><br>
+
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Buy House</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
+        </div>
+        <div class="service">
+            <h3>Rent House</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
+        </div>
+        <div class="service">
+            <h3>Sell House</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
+        </div>
+        <div class="service">
+            <h3>Flats and Buildings</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
+        </div>
+        <div class="service">
+            <h3>Shops and Malls</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
+        </div>
+        <div class="service">
+            <h3>24/7 Service</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Latest Listings</h2>
+        <div class="listing">
+            <h3>House Sale</h3>
+            <p>John Deo</p>
+            <p>10-11-2022</p>
+            <p>Modern flats and apartments</p>
+            <p>Andheri, Mumbai, India - 401303</p>
+            <p>3 BHK, 2 Bathrooms, 750 sqft</p>
+            <button>View Property</button>
+        </div>
+        <div class="listing">
+            <h3>Flat Sale</h3>
+            <p>John Deo</p>
+            <p>10-11-2022</p>
+            <p>Modern flats and apartments</p>
+            <p>Andheri, Mumbai, India - 401303</p>
+            <p>3 BHK, 2 Bathrooms, 750 sqft</p>
+            <button>View Property</button>
+        </div>
+        <div class="listing">
+            <h3>Flat Sale</h3>
+            <p>John Deo</p>
+            <p>10-11-2022</p>
+            <p>Modern flats and apartments</p>
+            <p>Andheri, Mumbai, India - 401303</p>
+            <p>3 BHK, 2 Bathrooms, 750 sqft</p>
+            <button>View Property</button>
+        </div>
+        <button>View All</button>
+    </section>
+</main>
+
+<footer>
+    <p>Contact Information:</p>
+    <p>Phone: 123456789</p>
+    <p>Alternate Phone: 1112223333</p>
+    <p>Email: <a href="mailto:shaikhanas@gmail.com">shaikhanas@gmail.com</a></p>
+    <p>Location: Mumbai, India - 400104</p>
+</footer>
+
+</body>
+</html>
